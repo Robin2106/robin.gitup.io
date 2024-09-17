@@ -1,0 +1,91 @@
+.form1{
+    border: 1px solid black;
+    width: 500px;
+    height: 500px;
+    margin-left: 35%;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+
+
+/* 1.Achive using html make it as RED */
+span{
+    color: red;
+}
+
+/* 2.Dropdown select should have shadow */
+.cours,.prelocat{
+    box-shadow: 0px 5px 6px black;
+    border-radius: 5px;
+}
+
+/* 3.ckeck box select should change the color of the label to be red */
+input[type="checkbox"]:checked+ label{
+    color: red;
+    font-weight: bold;
+}
+
+/* 4.Dropdown values have alternate colors */
+option:nth-child(odd){
+    background-color: lightgray;
+}
+option:nth-child(even){
+    background-color: rgb(106, 103, 103);
+}
+
+.one label::first-letter{
+    font-weight: bold;
+}
+
+/* label::first-letter{
+    font-weight: 900
+} */
+
+
+p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+input{
+    border-radius: 5px;
+}
+
+.one{
+    display: flex;
+    margin-left: 40px;
+    padding: 10px;
+}
+
+.name,.email{
+    margin-left: 82px;
+    width: 50%;
+    height: 22px;
+}
+.cours{
+    margin-left: 75px;
+    width: 50%;
+    height: 25px;
+}
+.prelocat{
+    margin-left: 11px;
+    width: 50%;
+    height: 25px;
+}
+.curtlocat{
+    margin-left: 28px;
+    width: 50%;
+    height: 22px;
+}
+.one1{
+    text-align: center;
+    padding: 10px;
+}
+.one2{
+    margin-left: 40%;
+    padding: 20px;
+}
+.curtlct{
+    margin-left: 40px;
+    padding: 10px;
+}
